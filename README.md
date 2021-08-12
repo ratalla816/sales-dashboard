@@ -1,30 +1,26 @@
 # Sales Pipeline Tracker
 
 A Kanban style board that allows users to manage their sales prospects throughout various stages of the sales cycle. 
-The application is built using the template from "Taskmaster-Pro" 
+The application is built using the template from the KU Bootcamp module 5 activity "Taskmaster-Pro".
 
 ## Requirements
 
-* Include form inputs that allow the user to search for a city.
+* When the user acquires a prospect's contact information they are able to add it to a "card" and edit the contect later.
 
-* When the user searches for a city they are presented with current and future weather conditions, and search history is added to persistent storage.
+* The card content is added to persistent storage.
 
-* When current weather conditions for the city are displayed, the user is presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index.
+* The contact card can be moved to different positions in the UI according to where the prospect is in the sales cycle. 
 
-* The UV index must diplay a color that indicates whether the conditions are favorable, moderate, or severe.
-
-* Future weather conditions for the city must include a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity.
-
-* When a city listed in the search history is clicked, the user is presented with current and future weather conditions for that city.
+* Cards can be added and deleted.
 
 
 ## Deployed Application Link
 
-https://ratalla816.github.io/weather-dashboard/
+https://ratalla816.github.io/sales-dashboard/
 
 ## Deployed Application Screenshot
 
-![application screenshot](./assets/images/weather-dashboard-screenshot.jpg)
+![application screenshot](./assets/images/sales-pipeline-screenshot.jpg)
 
 #### acknowledgements
 

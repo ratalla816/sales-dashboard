@@ -17,16 +17,18 @@
 <body>
 
   <div class="row min-vh-100 no-gutters">
-    <header class="col-12 col-lg-3 bg-dark text-light sticky-top d-flex flex-column p-4 p-lg-3">
+    <header class="col-12 col-lg-3 bg-secondary text-light sticky-top d-flex flex-column p-4 p-lg-3">
         <h1 class="text-center">
           <span class="oi oi-task d-inline d-lg-none"></span>
-          Matt Martin Sales Pipline
+          Matt Martin's Sales Pipeline
         </h1>
-          <button id="create-task" class="btn btn-block btn-add" data-toggle="modal" data-target="#task-form-modal"><span class="oi oi-plus mr-2"></span>Add Task</button>
-          <button id="remove-tasks" class="btn btn-block btn-delete mb-2 mb-md-4"><span class="oi oi-trash mr-2"> </span>Delete All Tasks</button>
+          <button id="create-task" class="btn btn-block btn-add" data-toggle="modal" data-target="#task-form-modal"><span class="oi oi-plus mr-2"></span>Add Card</button>
+          <button id="remove-tasks" class="btn btn-block btn-delete mb-2 mb-md-4"><span class="oi oi-trash mr-2"> </span>Delete All Cards</button>
           
   <!-- <span class="oi oi-task display-1 text-center mb-2 d-none d-lg-block mt-auto"></span> -->
   <span class="text-center mb-2 d-none d-lg-block mt-auto"></span>
+  <img src="assets/images/waterfall.jpg"> 
+  <br>
   <img src="assets/images/WLE Logo.png">      
         <p></p>
       <p class="d-none d-lg-block">
@@ -51,7 +53,7 @@
           <div class="col-12 col-md-6 col-xl-3 mb-3">
             <div class="card">
               <h4 class="card-header bg-dark text-light d-flex align-items-center">
-                Contacted 
+                Next Contact 
               </h4>
               <ul id="list-inProgress" class="list-group list-group-flush">
               </ul>
@@ -70,8 +72,8 @@
           <!--  -->
           <div class="col-12 col-md-6 col-xl-3 mb-3">
             <div class="card">
-              <h4 class="card-header bg-dark text-light d-flex align-items-center">
-                Converted to Customer
+              <h4 class="card-header bg-danger text-light d-flex align-items-center">
+                HOT
               </h4>
               <ul id="list-done" class="list-group list-group-flush">
               </ul>
@@ -91,7 +93,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="myModalTitle">Add New Task</h5>
+          <h5 class="modal-title" id="myModalTitle">Add New Card</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -99,7 +101,7 @@
         <div class="modal-body">
           <form>
             <div class="form-group">
-              <label for="modalTaskDescription">Task description</label>
+              <label for="modalTaskDescription">Card description</label>
               <textarea class="form-control" id="modalTaskDescription" rows="3"></textarea>
             </div>
             <div class="form-group">
@@ -116,7 +118,6 @@
     </div>
   </div>
   <footer>
-    &copy;2021 by Atalla Technologies
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
