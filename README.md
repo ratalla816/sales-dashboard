@@ -20,7 +20,7 @@ https://ratalla816.github.io/sales-dashboard/
 
 ## Deployed Application Screenshot
 
-![application screenshot](./assets/images/sales-pipeline-screenshot.jpg)
+![application screenshot](./assets/images/screenshot.png)
 
 #### acknowledgements
 
